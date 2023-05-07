@@ -1,0 +1,11 @@
+User
+
+user@test.com
+123qwe123
+...............................
+Admin
+http://localhost:3000/admin/sign-in
+
+admin@test.com
+123qwe123
+

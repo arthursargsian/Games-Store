@@ -1,0 +1,29 @@
+For verification, you should do next:
+
+ 1. Create Ethereal mail
+ 2. Get into middlewares/nodemailer and change this:
+
+const transporter = nodemailer.createTransport({
+  host: "smtp.ethereal.email",
+  port: 587,
+  auth: { user: "flavio99@ethereal.email", pass: "TYxnVJX2J5Q3GjxWpq" },
+});
+
+Into this:
+
+const transporter = nodemailer.createTransport({
+  host: "smtp.ethereal.email",
+  port: 587,
+  auth: {
+    user: "<your ethereal mail here>",
+    pass: "<your ethereal password here>",
+  },
+});
+
+Next you should complete registration as usual and
+!!IMPORTANT!! verify your email in order to gain access to website's functional.
+
+To get the mail you should:
+Log in into your Ethereal account Click on MESSAGES
+in header And check the recent mail from "Unknown-Games e-mail
+autosender" Click on mail Click on the link. Congrats! You are verified user now

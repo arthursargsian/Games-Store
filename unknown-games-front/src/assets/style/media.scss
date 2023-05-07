@@ -1,0 +1,85 @@
+@media screen and (max-width: 1085px) {
+  .nav__block {
+    margin-top: 30px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1900px) {
+  .slide-container {
+    width: 1268px;
+  }
+  .block {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1868px) {
+  .games {
+    .games__card {
+      width: calc(100% / 5);
+    }
+  }
+  .discover-block {
+    height: 450px !important;
+  }
+}
+
+@media screen and (max-width: 1610px) {
+  .games {
+    .games__card {
+      width: calc(100% / 4);
+      height: max-content;
+    }
+  }
+
+  .browse-block {
+    height: 350px !important;
+  }
+  .discover-block {
+    height: 600px !important;
+  }
+  .slide{
+    width: 1085px !important;
+  }
+}
+
+@media screen and (max-width: 1490px) {
+  .games {
+    .games__card {
+      width: calc(100% / 3);
+    }
+  }
+  .browse-block {
+    height: 400px !important;
+  }
+  .discover-block {
+    height: 700px !important;
+  }
+}
+
+@media screen and (max-width: 1172px) {
+  .browse-block {
+    height: 280px !important;
+  }
+}
+@media screen and (max-width: 827px) {
+  .browse-block {
+    height: 180px !important;
+  }
+}
+@media screen and (max-width: 1376px) {
+  .browse-block {
+    height: 350px !important;
+  }
+}
+@media screen and (max-width: 1118px) {
+  .games {
+    .games__card {
+      width: calc(100% / 2);
+    }
+  }
+  .browse-block {
+    height: 450px !important;
+  }
+}
